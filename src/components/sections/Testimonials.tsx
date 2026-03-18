@@ -5,19 +5,19 @@ const testimonials = [
     name: "Mariana S.",
     role: "Perdeu 4kg em 1 mês",
     content: "Sempre achei que dieta saudável era sem gosto. Esse e-book mudou minha visão! As receitas são fáceis, baratas e deliciosas. A torta de frango low carb é sucesso aqui em casa.",
-    image: "https://i.pravatar.cc/150?u=mariana"
+    image: "https://randomuser.me/api/portraits/women/44.jpg"
   },
   {
     name: "Juliana T.",
     role: "Mais energia e disposição",
     content: "Trabalho o dia todo e não tinha tempo de cozinhar. Com as dicas de organização do e-book, agora preparo minhas marmitas da semana em poucas horas. Me sinto muito mais disposta!",
-    image: "https://i.pravatar.cc/150?u=juliana"
+    image: "https://randomuser.me/api/portraits/women/68.jpg"
   },
   {
     name: "Camila R.",
     role: "Recomendado pela nutri",
     content: "Minha nutricionista recomendou buscar opções variadas. Encontrei este material e tem sido um salvador. Consigo manter o foco na dieta sem sofrimento e sem gastar muito.",
-    image: "https://i.pravatar.cc/150?u=camila"
+    image: "https://randomuser.me/api/portraits/women/12.jpg"
   }
 ];
 

@@ -65,9 +65,9 @@ export function Hero() {
               transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
             >
               <div className="flex -space-x-3">
-                <img className="w-10 h-10 rounded-full border-2 border-white object-cover" src="https://i.pravatar.cc/100?img=1" alt="User" />
-                <img className="w-10 h-10 rounded-full border-2 border-white object-cover" src="https://i.pravatar.cc/100?img=2" alt="User" />
-                <img className="w-10 h-10 rounded-full border-2 border-white object-cover" src="https://i.pravatar.cc/100?img=3" alt="User" />
+                <img className="w-10 h-10 rounded-full border-2 border-white object-cover" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Aluna 1" />
+                <img className="w-10 h-10 rounded-full border-2 border-white object-cover" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Aluna 2" />
+                <img className="w-10 h-10 rounded-full border-2 border-white object-cover" src="https://randomuser.me/api/portraits/women/12.jpg" alt="Aluna 3" />
               </div>
               <div>
                 <div className="flex text-accent text-sm">★★★★★</div>
