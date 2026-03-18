@@ -32,7 +32,7 @@ export function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-              <a href="#oferta" className="inline-flex items-center justify-center w-full sm:w-auto h-14 px-8 text-base font-semibold rounded-full bg-primary text-white hover:bg-primary/90 transition-all shadow-lg active:scale-95">
+              <a href="https://pay.hotmart.com/I104962419M?off=bzs8bhtf&checkoutMode=10" className="inline-flex items-center justify-center w-full sm:w-auto h-14 px-8 text-base font-semibold rounded-full bg-primary text-white hover:bg-primary/90 transition-all shadow-lg active:scale-95">
                 Quero Acessar Agora
               </a>
             </div>
