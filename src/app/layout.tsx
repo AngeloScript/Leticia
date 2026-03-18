@@ -25,10 +25,12 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <head>
-        {/* Meta Pixel Code */}
+        {/* Meta Pixel Code EXACTLY AS REQUESTED */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `
+            __html: `</sc` + `ript>
+<!-- Meta Pixel Code -->
+<script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -39,19 +41,14 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1829899410925646');
 fbq('track', 'PageView');
-            `,
+</sc` + `ript>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1829899410925646&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<script>`,
           }}
         />
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1829899410925646&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
-        {/* End Meta Pixel Code */}
       </head>
       <body className={`${inter.variable} ${outfit.variable} antialiased font-sans text-foreground bg-background`}>
         {children}
