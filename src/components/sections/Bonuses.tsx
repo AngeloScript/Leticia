@@ -7,24 +7,24 @@ const bonuses = [
   {
     title: "Guia de Sobremesas Saudáveis",
     description:
-      "Aprende a fazer doces incríveis sem açúcar refinado. Perfeito para quando bate aquela vontade de um doce.",
-    value: "€19,90",
+      "Aprenda a fazer doces incríveis sem açúcar refinado. Perfeito para quando bate aquela vontade de um doce.",
+    value: "R$ 19,90",
     imagePlaceholder: "Sobremesas",
     image: "/images/healthy_desserts.png"
   },
   {
     title: "Lista de Compras Inteligente",
     description:
-      "Vai ao supermercado sabendo exatamente o que comprar. Poupa tempo e dinheiro em todas as tuas idas às compras.",
-    value: "€14,90",
+      "Vá ao supermercado sabendo exatamente o que comprar. Poupe tempo e dinheiro em todas as suas compras.",
+    value: "R$ 14,90",
     imagePlaceholder: "Lista",
     image: "/images/smart_shopping_list.png"
   },
   {
     title: "Acesso à Comunidade VIP",
     description:
-      "Grupo exclusivo onde podes partilhar resultados, tirar dúvidas e manteres-te motivada todos os dias.",
-    value: "€29,90",
+      "Grupo exclusivo onde você pode compartilhar resultados, tirar dúvidas e se manter motivada todos os dias.",
+    value: "R$ 29,90",
     imagePlaceholder: "VIP",
     image: "/images/vip_community.png"
   },
@@ -43,13 +43,13 @@ export function Bonuses() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-medium mb-6">
             <Gift className="w-5 h-5" />
-            <span>Bónus Exclusivos</span>
+            <span>Bônus Exclusivos</span>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
-            Achas que era só isto?
+            Achou que era só isso?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ao garantires o teu acesso hoje, levas também estes 3 bónus
+            Ao garantir o seu acesso hoje, você leva também estes 3 bônus
             exclusivos <span className="font-bold text-foreground">totalmente grátis</span>.
           </p>
         </motion.div>
@@ -103,10 +103,10 @@ export function Bonuses() {
         >
           <div className="flex items-center justify-center gap-3 mb-2">
             <Lock className="w-5 h-5 text-secondary" />
-            <span className="font-bold text-foreground text-xl">Mais de €60 em Bónus</span>
+            <span className="font-bold text-foreground text-xl">Mais de R$ 60 em Bônus</span>
           </div>
           <p className="text-muted-foreground">
-            Estes bónus são limitados e podem ser retirados a qualquer momento. 
+            Estes bônus são limitados e podem ser retirados a qualquer momento. 
             Aproveita a oferta especial de hoje para garantires todos eles.
           </p>
         </motion.div>

@@ -27,7 +27,7 @@ const products = [
     icon: <HeartPulse className="w-8 h-8 text-primary" />,
     title: "Resultados Duradouros",
     description:
-      "Aprende a comer de forma saudável sem dietas restritivas e alcança os teus objetivos.",
+      "Aprenda a comer de forma saudável sem dietas restritivas e alcance seus objetivos.",
   },
 ];
 

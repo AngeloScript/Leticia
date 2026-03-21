@@ -35,7 +35,7 @@ export function StickyCTA() {
             <div className="bg-background/90 backdrop-blur-md border border-border shadow-2xl rounded-2xl p-4 flex flex-col md:flex-row items-center justify-between gap-4 pointer-events-auto">
               <div className="hidden md:block">
                 <div className="text-sm font-medium text-muted-foreground">OFERTA ESPECIAL</div>
-                <div className="font-bold text-foreground">NutriReceitas + 3 Bónus Exclusivos</div>
+                <div className="font-bold text-foreground">NutriReceitas + 3 Bônus Exclusivos</div>
               </div>
               
               <div className="flex items-center gap-4 w-full md:w-auto">
